@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h3, h4 {
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(99, 99, 99);
+    font-weight: 900;
+}
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+
+
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
